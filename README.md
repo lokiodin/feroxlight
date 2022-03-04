@@ -22,6 +22,12 @@ OPTIONS:
 
 You can specify multiple regex for each color by delimiting them with a comma `,`. 
 
+The default regex already implemented (simple regex, may highlight something wrong):
+- IPv4
+- the words: password, login, credentials
+- hash strings
+
+
 ## Examples
 TODO
 

@@ -19,9 +19,9 @@ pub fn cli_options() -> ArgMatches {
             Arg::new("no-default")
                 .help("Do not use the default regex and color")
                 .long("no-default")
+                .takes_value(false)
                 .required(false),
         )
-
         // TODO: write more information about regex, flags in the help
         // Argument to specify regex, words and their color to be used
         .args(&[
