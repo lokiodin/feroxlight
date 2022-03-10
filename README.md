@@ -27,11 +27,3 @@ The default regex already implemented (simple regex, may highlight something wro
 - the words: password, login, credentials
 - hash strings
 
-
-## Examples
-TODO
-
-## TODO
-- [ ] add a config file to avoid specifying regex for each color (maybe see https://docs.rs/crate/argfile/latest)
-- [ ] add more default regex
-- [ ] Add more info in the help (regex with flags (https://docs.rs/regex/latest/regex/#syntax), examples, ...)
